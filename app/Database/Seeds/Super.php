@@ -17,8 +17,8 @@ class Super extends Seeder
             $userModel = new UserModel();
 
             $user = new User([
-                'email' => 'fivan7580@gmail.com',
-                'username' => 'ivan',
+                'email' => 'ivan@gmail.com',
+                'username' => 'ivan dentista',
                 'password' => '12345678'
 
             ]);

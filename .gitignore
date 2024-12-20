@@ -81,10 +81,11 @@ tests/coverage*
 # Don't save phpunit under version control.
 phpunit
 
-#-------------------------
-# Composer
-#-------------------------
-vendor/
+# Ignorar todos os diretórios vendor
+/vendor/
+
+# Permitir rastrear a pasta public/back/vendor
+!public/back/vendor/
 
 #-------------------------
 # IDE / Development Files
